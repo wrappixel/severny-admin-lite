@@ -1,0 +1,1 @@
+$(function(){"use strict";"skin6"==$("#main-wrapper").attr("data-navbarbg")&&($(".topbar .navbar").addClass("navbar-light"),$(".topbar .navbar").removeClass("navbar-dark"))});

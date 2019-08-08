@@ -1,0 +1,15 @@
+/*******************
+ Breadcrumb and page title
+*******************/
+
+.page-breadcrumb {
+    padding: 30px 30px 0 30px;  
+    .breadcrumb {
+        background: transparent;
+        font-size: .875rem;
+        .breadcrumb-item+.breadcrumb-item::before {
+            color: $gray-400;
+            font-size: 11px;  
+        }
+    }
+}

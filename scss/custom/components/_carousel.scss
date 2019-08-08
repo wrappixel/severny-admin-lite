@@ -1,0 +1,19 @@
+// **************************************************
+// Status Carousel For Dashboard
+// **************************************************
+
+.status-carousel {
+    .carousel-control-prev {
+        right: 42px;
+        left: unset;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: -50px;
+        height: 36px;
+        width: 36px;
+        background: $gray-300;
+        border-radius: 50%;
+    }
+}

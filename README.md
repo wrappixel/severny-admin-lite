@@ -1,1 +1,0 @@
-# severny-admin-lite

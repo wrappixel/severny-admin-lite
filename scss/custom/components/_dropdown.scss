@@ -1,0 +1,35 @@
+// Default Dropdown Settings
+.dropdown-menu {
+	box-shadow: $dropdown-box-shadow;
+}
+
+.dropdown-menu.mailbox {
+	max-width: $sidebar-width-full;
+}
+
+// Header Dropdown For iconbar Demo version
+.mailbox {
+    .drop-title {
+        &:after{
+            content: "";
+            position: absolute;
+            background: $droptitle-bg;
+            opacity: 0.2;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            background-size: cover;
+        }
+    }
+    .message-center {
+        .message-item {
+            &:hover {
+                background: $gray-100;
+            }
+            .message-title{
+                color:$gray-900;
+            }
+        }
+    }
+}

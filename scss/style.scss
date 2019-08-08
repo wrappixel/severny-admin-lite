@@ -1,0 +1,43 @@
+// (Required file)
+@import 'bootstrap/functions';
+//@import 'bootstrap/variables';
+@import 'config/default/variables';
+@import 'config/default/custom-variables';
+
+// Import Bootstrap source files (Required file)
+@import 'bootstrap/bootstrap';
+
+// Structure
+@import 'custom/structure/layout';
+@import 'custom/structure/preloader';
+@import 'custom/structure/navbar';
+@import 'custom/structure/sidebar';
+
+// Theme Colors
+@import 'custom/theme-colors/theme-colors';
+
+// Components
+@import 'custom/components/tables';
+@import 'custom/components/breadcrumb';
+@import 'custom/components/buttons';
+@import 'custom/components/reboot';
+@import 'custom/components/badge';
+@import 'custom/components/card';
+@import 'custom/components/forms';
+@import 'custom/components/dropdown';
+@import 'custom/components/carousel';
+@import 'custom/components/popover';
+
+// Pages
+@import 'custom/pages/errors';
+@import 'custom/pages/charts';
+
+// Widgets
+@import 'custom/widgets/profile-timeline';
+
+// Plugins
+@import 'custom/plugins/perfect-scrollbar';
+@import 'custom/plugins/extra';
+
+// Icons
+@import 'icons/icons';

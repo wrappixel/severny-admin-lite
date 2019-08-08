@@ -1,0 +1,65 @@
+/*******************
+Table Cell
+*******************/
+.no-wrap {
+    td,
+    th {
+        white-space: nowrap;
+    }
+}
+
+.table thead th,
+.table th {
+    font-weight: 500;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.v-middle {
+    td,
+    th {
+        vertical-align: middle;
+    }
+}
+
+
+/*******************
+Table-Jsgrid table
+******************/
+
+.jsgrid-pager-page a,
+.jsgrid-pager-current-page,
+.jsgrid-pager-nav-button a {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.5em;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #67757c;
+    border: 1px solid #ddd;
+}
+
+.jsgrid-pager-page a:hover,
+.jsgrid-pager-nav-button a:hover {
+    background-color: $themecolor;
+    color: $gray-0;
+}
+
+.jsgrid-pager-current-page {
+    background-color: $themecolor;
+    color: $gray-0;
+}
+
+.jsgrid-pager-page,
+.jsgrid-pager-nav-button {
+    padding: 0;
+}
+
+.jsgrid-pager-page.jsgrid-pager-current-page {
+    padding: 0.5em 1em !important;
+}
