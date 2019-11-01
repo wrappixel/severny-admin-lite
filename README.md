@@ -1,6 +1,6 @@
 # severny-admin-lite
 
-<h4><a href="https://wrappixel.com/demos/free-admin-templates/severny-admin-lite/html/">Free Version Demo Link</a></h4>
+<h4><a href="https://wrappixel.com/demos/free-admin-templates/severny-admin-lite/html/index.html">Free Version Demo Link</a></h4>
 
 ## Pro Version
 
