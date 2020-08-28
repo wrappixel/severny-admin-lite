@@ -53,7 +53,7 @@
 </a>
 <p>
    Checkout our premium version of Severny Bootstrap Admin for lots more features and ready to use page templates.<br>
-   <a href="https://www.wrappixel.com/demos/admin-templates/severny/src/html/menu-sidebar/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/pixeladmin/">Download</a>
+   <a href="https://www.wrappixel.com/demos/admin-templates/severny/src/html/menu-sidebar/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/severny-admin-template/">Download</a>
 </p>
 
 <!-- Useful Links of Template -->
