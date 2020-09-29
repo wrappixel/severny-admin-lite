@@ -1,17 +1,17 @@
 <!-- # severny-admin-lite -->
 <!-- Heading of Template -->
 <h1>
-  <a href="https://wrappixel.com/demos/free-admin-templates/severny-admin-lite/html/index.html">Severny Bootstrap Admin Lite</a>
+  <a href="https://www.wrappixel.com/templates/severny-bootstrap-dashboard-free/">Severny Bootstrap Admin Lite</a>
 </h1>
 
 <!-- Main image of Template -->
-<!-- <a target="_blank" href="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/pixel-admin-lite-y.jpg">
-  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/pixel-admin-lite-y.jpg" />
-</a> -->
+<a target="_blank" href="https://www.wrappixel.com/templates/severny-bootstrap-dashboard-free/">
+  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/09/severny-bootstrap-admin-lite-y.jpg" />
+</a> 
 
 <!-- Description of Template -->
 <p>
- Lorem ipsume
+ Serverny is Free Admin Dashboard Template built on Bootstrap 4 responsive framework. It is created by WrapPixel. The modern and trendy design of Serverny Free Bootstrap Admin Template will please your eyes in no time. It comes with some dedicated page templates and beutiful dashboard panel. You can download Severny for free and use it for your Personal as well as Commercial use.
 </p>
 
 <!-- <h4><a href="https://wrappixel.com/demos/free-admin-templates/severny-admin-lite/html/index.html">Free Version Demo Link</a></h4>
