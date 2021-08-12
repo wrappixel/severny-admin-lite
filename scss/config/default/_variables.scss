@@ -2,7 +2,7 @@
 // Theme Fonts
 // -------------------------------
 // Google Fonts For the Theme
-@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap");
 
 // ----------------------------------
 // All Colors of Bootstrap Overrides
@@ -15,7 +15,7 @@ $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
 $gray-500: #a1aab2 !default;
 $gray-600: #6c757d !default;
-$gray-700: #4F5467 !default;
+$gray-700: #4f5467 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
@@ -31,19 +31,21 @@ $green: #02cccd !default;
 $teal: #20c997 !default;
 $cyan: #5099ff !default;
 
-$colors: (blue: $blue,
-    indigo: $indigo,
-    purple: $purple,
-    pink: $pink,
-    red: $red,
-    orange: $orange,
-    yellow: $yellow,
-    green: $green,
-    teal: $teal,
-    cyan: $cyan,
-    white: $white,
-    gray: $gray-600,
-    gray-dark: $gray-800);
+$colors: (
+  blue: $blue,
+  indigo: $indigo,
+  purple: $purple,
+  pink: $pink,
+  red: $red,
+  orange: $orange,
+  yellow: $yellow,
+  green: $green,
+  teal: $teal,
+  cyan: $cyan,
+  white: $white,
+  gray: $gray-600,
+  gray-dark: $gray-800,
+);
 
 $primary: $purple !default;
 $secondary: $gray-600 !default;
@@ -57,26 +59,29 @@ $cyan: $cyan !default;
 $orange: $orange !default;
 $theme-colors: () !default;
 
-$theme-colors: map-merge(("primary": $primary,
-        "secondary": $secondary,
-        "success": $success,
-        "info": $info,
-        "warning": $warning,
-        "danger": $danger,
-        "light": $light,
-        "dark": $dark,
-        "cyan": $cyan,
-        "orange": $orange,
-        "purple": $purple),
-    $theme-colors);
+$theme-colors: map-merge(
+  (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark,
+    "cyan": $cyan,
+    "orange": $orange,
+    "purple": $purple,
+  ),
+  $theme-colors
+);
 
 // -----------------------------------------------
 // Typography
 // -----------------------------------------------
 
 $font-size-base: 0.875rem;
-$font-family-sans-serif: 'Rubik',
-sans-serif !default;
+$font-family-sans-serif: "Rubik", sans-serif !default;
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
 $font-weight-bold: 600 !default;
@@ -120,23 +125,28 @@ $body-color: #3e5569 !default;
 // Grid Settings
 // -------------------------------
 $grid-gutter-width: 20px !default;
-$grid-breakpoints: (xs: 0,
-    sm: 576px,
-    md: 768px,
-    lg: 992px,
-    xl: 1600px) !default;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1600px,
+) !default;
 
 $sizes: () !default;
-$sizes: map-merge((25: 25%,
-        30: 30%,
-        35: 35%,
-        40: 40%,
-        50: 50%,
-        75: 75%,
-        100: 100%,
-        auto: auto),
-    $sizes);
-
+$sizes: map-merge(
+  (
+    25: 25%,
+    30: 30%,
+    35: 35%,
+    40: 40%,
+    50: 50%,
+    75: 75%,
+    100: 100%,
+    auto: auto,
+  ),
+  $sizes
+);
 
 // -------------------------------
 // Breadcrumbs Settings
@@ -148,11 +158,11 @@ $breadcrumb-margin-bottom: 1.5rem;
 // Dropdowns Settings
 // -------------------------------
 $dropdown-item-padding-x: 1rem !default;
-$dropdown-item-padding-y: .65rem !default;
+$dropdown-item-padding-y: 0.65rem !default;
 $dropdown-border-color: $gray-200;
 $dropdown-divider-bg: $gray-100;
 $dropdown-link-color: $gray-600 !default;
-$dropdown-box-shadow: 1px 1px 15px rgba(0, 0, 0, .1) !default;
+$dropdown-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1) !default;
 $dropdown-border-width: 0 !default;
 
 // -------------------------------
@@ -183,7 +193,7 @@ $component-active-bg: $blue !default;
 $input-group-addon-bg: $gray-100;
 $input-border-color: $gray-200;
 $input-group-addon-border-color: $gray-200;
-$input-btn-focus-color: rgba(0, 0, 0, .25) !default;
+$input-btn-focus-color: rgba(0, 0, 0, 0.25) !default;
 $input-focus-border-color: rgba(0, 0, 0, 0.25) !default;
 $custom-control-indicator-active-bg: rgba(0, 0, 0, 35%) !default;
 $custom-select-indicator: url(../../assets/images/custom-select.png) !default;
@@ -206,8 +216,8 @@ $border-radius-sm: 1px !default;
 // -------------------------------
 
 $progress-height: 6px !default;
-$progress-bg: rgba(0, 0, 0, .05) !default;
-$progress-border-radius: .25rem !default;
+$progress-bg: rgba(0, 0, 0, 0.05) !default;
+$progress-border-radius: 0.25rem !default;
 
 // -------------------------------
 // Tabs active bg settings
@@ -219,7 +229,7 @@ $nav-tabs-link-active-bg: $white !default;
 // Navbar dark & light font colors
 // -------------------------------
 
-$navbar-dark-color: rgba($white, .5) !default;
+$navbar-dark-color: rgba($white, 0.5) !default;
 $navbar-dark-hover-color: rgba($white, 1) !default;
 $navbar-light-color: #9ba4b1 !default;
 $navbar-light-hover-color: rgba($dark, 1) !default;
@@ -230,7 +240,7 @@ $navbar-light-hover-color: rgba($dark, 1) !default;
 
 $card-spacer-x: 25px; // Card Padding
 $card-border-width: 1px !default;
-$card-border-radius: .25rem !default;
+$card-border-radius: 0.25rem !default;
 $card-border-color: $gray-200 !default;
 $card-columns-margin: 20px !default;
 

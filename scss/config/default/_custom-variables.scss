@@ -10,7 +10,11 @@ $background-alt: #262d35;
 // ---------------------------------------------
 // Skins For changing navbar,sidebar colors
 // ---------------------------------------------
-$gradient-bg: -webkit-linear-gradient(0deg, rgb(63, 80, 246) 0%, rgb(105, 76, 254) 100%);
+$gradient-bg: -webkit-linear-gradient(
+  0deg,
+  rgb(63, 80, 246) 0%,
+  rgb(105, 76, 254) 100%
+);
 $skin1: $gradient-bg;
 $skin2: #fe5419;
 $skin3: #00b0ff;
@@ -25,35 +29,39 @@ $gray-0: $white;
 // -----------------------------
 
 $shadow: 0px 3px 9px 0px rgba(162, 176, 190, 0.15);
-$custom-shadow: 0 2px 9px 0 rgba(169, 184, 200, .2);
+$custom-shadow: 0 2px 9px 0 rgba(169, 184, 200, 0.2);
 
 // ---------------------------------------------
 // Transitions
 // ---------------------------------------------
 
-$transitions:0.2s ease-in;
-$transparent-dark-bg:rgba(0, 0, 0, 0.05);
+$transitions: 0.2s ease-in;
+$transparent-dark-bg: rgba(0, 0, 0, 0.05);
 
 %square {
-    border-radius: 0px
+  border-radius: 0px;
 }
 
 %rotate45 {
-    transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
 }
 
-$theme-colors: map-merge(('light-100': #f2f6fb,
-        'light-danger': #fef6fb,
-        'light-warning': #fff7eb,
-        'light-success': #e4fbf8,
-        'light-cyan': #d8f9f5,
-        'light-info': #eef5ff,
-        'inverse': #32325d),
-    $theme-colors);
+$theme-colors: map-merge(
+  (
+    "light-100": #f2f6fb,
+    "light-danger": #fef6fb,
+    "light-warning": #fff7eb,
+    "light-success": #e4fbf8,
+    "light-cyan": #d8f9f5,
+    "light-info": #eef5ff,
+    "inverse": #32325d,
+  ),
+  $theme-colors
+);
 
 // -------------------------------
 // Header settings here
@@ -84,7 +92,14 @@ $sidebar-width-mini: 65px;
 $mailbox-width: 300px;
 $mailbox-height: 200px;
 
-$sidebar-selected-bg: linear-gradient(to right, #4051f6, #475cf3, #4f65ef, #586eea, #6177e5);
+$sidebar-selected-bg: linear-gradient(
+  to right,
+  #4051f6,
+  #475cf3,
+  #4f65ef,
+  #586eea,
+  #6177e5
+);
 
 $sidebar-link-padding: 12px 15px;
 $minisidebar-link-padding: 12px 15px;
@@ -104,14 +119,13 @@ $page-content-right-spacing: 30px; // page content padding
 $lft: left;
 $rgt: right;
 
-
 // -------------------------------
 // Sticky Left & Right Sidebar
 // -------------------------------
 $left-part-width: 260px;
 
 $custom-border-color: rgba(255, 255, 255, 0.3);
-$border: rgba(0, 0, 0, .1);
+$border: rgba(0, 0, 0, 0.1);
 
 $font-weight-medium: 500;
 
