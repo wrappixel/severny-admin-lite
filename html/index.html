@@ -152,7 +152,10 @@
                         placeholder="Search"
                         aria-label="Search"
                       />
-                      <i class="form-control-icon" data-feather="search"></i>
+                      <i
+                        class="form-control-icon mdi mdi-magnify"
+                        style="line-height: 25px"
+                      ></i>
                     </div>
                   </form>
                 </a>
@@ -197,24 +200,52 @@
                     profile-dd
                     text-center
                   "
-                  ><i class="fas fa-angle-down"></i
+                  ><i class="mdi mdi-arrow-down-bold"></i
                 ></span>
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="javascript:void(0)">
-                  <i class="fas fa-circle text-success font-12 mr-2"></i>
+                  <i
+                    class="
+                      mdi mdi-checkbox-blank-circle
+                      text-success
+                      font-12
+                      mr-2
+                    "
+                  ></i>
                   Active
                 </a>
                 <a class="dropdown-item" href="javascript:void(0)">
-                  <i class="fas fa-circle text-warning font-12 mr-2"></i>
+                  <i
+                    class="
+                      mdi mdi-checkbox-blank-circle
+                      text-warning
+                      font-12
+                      mr-2
+                    "
+                  ></i>
                   Away
                 </a>
                 <a class="dropdown-item" href="javascript:void(0)">
-                  <i class="fas fa-circle text-danger font-12 mr-2"></i>
+                  <i
+                    class="
+                      mdi mdi-checkbox-blank-circle
+                      text-danger
+                      font-12
+                      mr-2
+                    "
+                  ></i>
                   Do not Disturb
                 </a>
                 <a class="dropdown-item" href="javascript:void(0)">
-                  <i class="fas fa-circle text-muted font-12 mr-2"></i>
+                  <i
+                    class="
+                      mdi mdi-checkbox-blank-circle
+                      text-muted
+                      font-12
+                      mr-2
+                    "
+                  ></i>
                   Invisible
                 </a>
               </div>
@@ -235,7 +266,7 @@
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  <span><i data-feather="bell" class="svg-icon op-7"></i></span>
+                  <span><i class="mdi mdi-bell op-7 font-20"></i></span>
                   <span class="badge badge-danger badge-no rounded-circle"
                     >5</span
                   >
@@ -248,9 +279,7 @@
                   href="javascript:void(0)"
                   role="button"
                 >
-                  <span
-                    ><i data-feather="settings" class="svg-icon op-7"></i
-                  ></span>
+                  <span><i class="mdi mdi-settings op-7 font-20"></i></span>
                 </a>
               </div>
               <div class="col-4">
@@ -263,9 +292,7 @@
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  <span
-                    ><i data-feather="message-square" class="svg-icon op-7"></i
-                  ></span>
+                  <span><i class="mdi mdi-message op-7 font-20"></i></span>
                 </a>
               </div>
             </div>
@@ -281,11 +308,14 @@
               </li>
               <li class="sidebar-item">
                 <a
-                  class="sidebar-link sidebar-link"
+                  class="sidebar-link sidebar-link d-flex align-items-center"
                   href="index.html"
                   aria-expanded="false"
                 >
-                  <i data-feather="home" class="feather-icon"></i>
+                  <i
+                    class="mdi mdi-view-dashboard font-20"
+                    style="line-height: 20px"
+                  ></i>
                   <span class="hide-menu">Dashboard</span>
                 </a>
               </li>
@@ -295,7 +325,10 @@
                   href="pages-profile.html"
                   aria-expanded="false"
                 >
-                  <i data-feather="users" class="feather-icon"></i>
+                  <i
+                    class="mdi mdi-account-network font-20"
+                    style="line-height: 20px"
+                  ></i>
                   <span class="hide-menu">Profile</span>
                 </a>
               </li>
@@ -305,7 +338,10 @@
                   href="table-basic.html"
                   aria-expanded="false"
                 >
-                  <i data-feather="grid" class="feather-icon"></i>
+                  <i
+                    class="mdi mdi-border-all font-20"
+                    style="line-height: 20px"
+                  ></i>
                   <span class="hide-menu">Table</span>
                 </a>
               </li>
@@ -315,7 +351,7 @@
                   href="icon-material.html"
                   aria-expanded="false"
                 >
-                  <i data-feather="feather" class="feather-icon"></i>
+                  <i class="mdi mdi-face font-20" style="line-height: 20px"></i>
                   <span class="hide-menu">Icons</span>
                 </a>
               </li>
@@ -325,7 +361,7 @@
                   href="starter-kit.html"
                   aria-expanded="false"
                 >
-                  <i data-feather="check-square" class="feather-icon"></i>
+                  <i class="mdi mdi-file font-20" style="line-height: 20px"></i>
                   <span class="hide-menu">Starter Page</span>
                 </a>
               </li>
@@ -335,7 +371,10 @@
                   href="error-404.html"
                   aria-expanded="false"
                 >
-                  <i data-feather="user-x" class="feather-icon"></i>
+                  <i
+                    class="mdi mdi-alert-outline font-20"
+                    style="line-height: 20px"
+                  ></i>
                   <span class="hide-menu">404</span>
                 </a>
               </li>
@@ -390,7 +429,7 @@
             </div>
             <div class="col-5 align-self-center">
               <div class="customize-input float-right">
-                <select class="custom-select form-control">
+                <select class="form-select form-control">
                   <option selected>Aug 19</option>
                   <option value="1">July 19</option>
                   <option value="2">Jun 19</option>
@@ -426,10 +465,25 @@
                   </div>
                   <ul class="list-inline text-center mt-4 mb-0">
                     <li class="list-inline-item text-muted">
-                      <i class="font-10 fas fa-circle mr-2 text-info"></i>Sales
+                      <i
+                        class="
+                          font-10
+                          mdi mdi-checkbox-blank-circle
+                          mr-2
+                          text-info
+                        "
+                      ></i
+                      >Sales
                     </li>
                     <li class="list-inline-item text-muted">
-                      <i class="font-10 fas fa-circle mr-2 text-light"></i
+                      <i
+                        class="
+                          font-10
+                          mdi mdi-checkbox-blank-circle
+                          mr-2
+                          text-light
+                        "
+                      ></i
                       >Earnings
                     </li>
                   </ul>
@@ -566,7 +620,7 @@
                       data-slide="prev"
                     >
                       <span aria-hidden="true"
-                        ><i class="fas fa-chevron-left text-dark font-12"></i
+                        ><i class="mdi mdi-chevron-left text-dark font-20"></i
                       ></span>
                       <span class="sr-only">Previous</span>
                     </a>
@@ -577,7 +631,7 @@
                       data-slide="next"
                     >
                       <span aria-hidden="true"
-                        ><i class="fas fa-chevron-right text-dark font-12"></i
+                        ><i class="mdi mdi-chevron-right text-dark font-20"></i
                       ></span>
                       <span class="sr-only">Next</span>
                     </a>
@@ -689,7 +743,7 @@
                       <h2 class="mb-0">6350</h2>
                       <small>From India</small>
                       <div class="float-right">
-                        48% <i class="fas fa-level-up-alt text-success"></i>
+                        48% <i class="mdi mdi-arrow-up-bold text-success"></i>
                       </div>
                       <div class="progress">
                         <div
@@ -706,7 +760,7 @@
                       <h2 class="mb-0">3250</h2>
                       <small>From UAE</small>
                       <div class="float-right">
-                        98% <i class="fas fa-level-up-alt text-success"></i>
+                        98% <i class="mdi mdi-arrow-up-bold text-success"></i>
                       </div>
                       <div class="progress">
                         <div
@@ -723,7 +777,7 @@
                       <h2 class="mb-0">1250</h2>
                       <small>From Australia</small>
                       <div class="float-right">
-                        75% <i class="fas fa-level-down-alt text-danger"></i>
+                        75% <i class="mdi mdi-arrow-down-bold text-danger"></i>
                       </div>
                       <div class="progress">
                         <div
@@ -740,7 +794,7 @@
                       <h2 class="mb-0">1350</h2>
                       <small>From USA</small>
                       <div class="float-right">
-                        48% <i class="fas fa-level-up-alt text-success"></i>
+                        48% <i class="mdi mdi-arrow-up-bold text-success"></i>
                       </div>
                       <div class="progress">
                         <div
@@ -776,7 +830,7 @@
                             align-items-center
                             justify-content-center
                           "
-                          ><i class="far fa-bell"></i
+                          ><i class="mdi mdi-bell font-20"></i
                         ></a>
                       </div>
                       <div class="col-md-7 text-truncate">
@@ -798,7 +852,7 @@
                             align-items-center
                             justify-content-center
                           "
-                          ><i class="ti-server"></i
+                          ><i class="mdi mdi-server font-20"></i
                         ></a>
                       </div>
                       <div class="col-md-7 text-truncate">
@@ -820,7 +874,7 @@
                             align-items-center
                             justify-content-center
                           "
-                          ><i class="ti-shopping-cart"></i
+                          ><i class="mdi mdi-cart font-20"></i
                         ></a>
                       </div>
                       <div class="col-md-7 text-truncate">
@@ -842,7 +896,7 @@
                             align-items-center
                             justify-content-center
                           "
-                          ><i class="ti-user"></i
+                          ><i class="mdi mdi-account font-20"></i
                         ></a>
                       </div>
                       <div class="col-md-7 text-truncate">
@@ -864,7 +918,7 @@
                             align-items-center
                             justify-content-center
                           "
-                          ><i class="ti-user"></i
+                          ><i class="mdi mdi-account font-20"></i
                         ></a>
                       </div>
                       <div class="col-md-7 text-truncate">
@@ -888,7 +942,7 @@
                             align-items-center
                             justify-content-center
                           "
-                          ><i class="far fa-bell"></i
+                          ><i class="mdi mdi-bell font-20"></i
                         ></a>
                       </div>
                       <div class="col-md-7 text-truncate">
@@ -912,7 +966,7 @@
                             align-items-center
                             justify-content-center
                           "
-                          ><i class="ti-shopping-cart"></i
+                          ><i class="mdi mdi-cart font-20"></i
                         ></a>
                       </div>
                       <div class="col-md-7 text-truncate">
@@ -934,7 +988,7 @@
                             align-items-center
                             justify-content-center
                           "
-                          ><i class="ti-user"></i
+                          ><i class="mdi mdi-account font-20"></i
                         ></a>
                       </div>
                       <div class="col-md-7 text-truncate">
@@ -956,7 +1010,7 @@
                             align-items-center
                             justify-content-center
                           "
-                          ><i class="ti-user"></i
+                          ><i class="mdi mdi-account font-20"></i
                         ></a>
                       </div>
                       <div class="col-md-7 text-truncate">
@@ -980,7 +1034,7 @@
                             align-items-center
                             justify-content-center
                           "
-                          ><i class="ti-server"></i
+                          ><i class="mdi mdi-server font-20"></i
                         ></a>
                       </div>
                       <div class="col-md-7 text-truncate">
@@ -1002,7 +1056,7 @@
                             align-items-center
                             justify-content-center
                           "
-                          ><i class="ti-shopping-cart"></i
+                          ><i class="mdi mdi-cart font-20"></i
                         ></a>
                       </div>
                       <div class="col-md-7 text-truncate">
@@ -1139,7 +1193,7 @@
                           </td>
                           <td class="border-top-0 text-center">
                             <i
-                              class="fa fa-circle text-info"
+                              class="mdi mdi-checkbox-blank-circle text-info"
                               data-toggle="tooltip"
                               data-placement="top"
                               title="In Testing"
@@ -1220,7 +1274,7 @@
                           </td>
                           <td class="text-center">
                             <i
-                              class="fa fa-circle text-success"
+                              class="mdi mdi-checkbox-blank-circle text-success"
                               data-toggle="tooltip"
                               data-placement="top"
                               title="Done"
@@ -1303,7 +1357,7 @@
                           </td>
                           <td class="text-center">
                             <i
-                              class="fa fa-circle text-danger"
+                              class="mdi mdi-checkbox-blank-circle text-danger"
                               data-toggle="tooltip"
                               data-placement="top"
                               title="Done"
@@ -1362,7 +1416,7 @@
                           </td>
                           <td class="text-center">
                             <i
-                              class="fa fa-circle text-warning"
+                              class="mdi mdi-checkbox-blank-circle text-warning"
                               data-toggle="tooltip"
                               data-placement="top"
                               title="In Progress"

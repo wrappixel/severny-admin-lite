@@ -146,7 +146,10 @@
                         placeholder="Search"
                         aria-label="Search"
                       />
-                      <i class="form-control-icon" data-feather="search"></i>
+                      <i
+                        class="form-control-icon mdi mdi-magnify"
+                        style="line-height: 25px"
+                      ></i>
                     </div>
                   </form>
                 </a>
@@ -191,24 +194,52 @@
                     profile-dd
                     text-center
                   "
-                  ><i class="fas fa-angle-down"></i
+                  ><i class="mdi mdi-arrow-down-bold"></i
                 ></span>
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="javascript:void(0)">
-                  <i class="fas fa-circle text-success font-12 mr-2"></i>
+                  <i
+                    class="
+                      mdi mdi-checkbox-blank-circle
+                      text-success
+                      font-12
+                      mr-2
+                    "
+                  ></i>
                   Active
                 </a>
                 <a class="dropdown-item" href="javascript:void(0)">
-                  <i class="fas fa-circle text-warning font-12 mr-2"></i>
+                  <i
+                    class="
+                      mdi mdi-checkbox-blank-circle
+                      text-warning
+                      font-12
+                      mr-2
+                    "
+                  ></i>
                   Away
                 </a>
                 <a class="dropdown-item" href="javascript:void(0)">
-                  <i class="fas fa-circle text-danger font-12 mr-2"></i>
+                  <i
+                    class="
+                      mdi mdi-checkbox-blank-circle
+                      text-danger
+                      font-12
+                      mr-2
+                    "
+                  ></i>
                   Do not Disturb
                 </a>
                 <a class="dropdown-item" href="javascript:void(0)">
-                  <i class="fas fa-circle text-muted font-12 mr-2"></i>
+                  <i
+                    class="
+                      mdi mdi-checkbox-blank-circle
+                      text-muted
+                      font-12
+                      mr-2
+                    "
+                  ></i>
                   Invisible
                 </a>
               </div>
@@ -229,7 +260,7 @@
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  <span><i data-feather="bell" class="svg-icon op-7"></i></span>
+                  <span><i class="mdi mdi-bell op-7 font-20"></i></span>
                   <span class="badge badge-danger badge-no rounded-circle"
                     >5</span
                   >
@@ -242,9 +273,7 @@
                   href="javascript:void(0)"
                   role="button"
                 >
-                  <span
-                    ><i data-feather="settings" class="svg-icon op-7"></i
-                  ></span>
+                  <span><i class="mdi mdi-settings op-7 font-20"></i></span>
                 </a>
               </div>
               <div class="col-4">
@@ -257,9 +286,7 @@
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  <span
-                    ><i data-feather="message-square" class="svg-icon op-7"></i
-                  ></span>
+                  <span><i class="mdi mdi-message op-7 font-20"></i></span>
                 </a>
               </div>
             </div>
@@ -275,11 +302,14 @@
               </li>
               <li class="sidebar-item">
                 <a
-                  class="sidebar-link sidebar-link"
+                  class="sidebar-link sidebar-link d-flex align-items-center"
                   href="index.html"
                   aria-expanded="false"
                 >
-                  <i data-feather="home" class="feather-icon"></i>
+                  <i
+                    class="mdi mdi-view-dashboard font-20"
+                    style="line-height: 20px"
+                  ></i>
                   <span class="hide-menu">Dashboard</span>
                 </a>
               </li>
@@ -289,7 +319,10 @@
                   href="pages-profile.html"
                   aria-expanded="false"
                 >
-                  <i data-feather="users" class="feather-icon"></i>
+                  <i
+                    class="mdi mdi-account-network font-20"
+                    style="line-height: 20px"
+                  ></i>
                   <span class="hide-menu">Profile</span>
                 </a>
               </li>
@@ -299,7 +332,10 @@
                   href="table-basic.html"
                   aria-expanded="false"
                 >
-                  <i data-feather="grid" class="feather-icon"></i>
+                  <i
+                    class="mdi mdi-border-all font-20"
+                    style="line-height: 20px"
+                  ></i>
                   <span class="hide-menu">Table</span>
                 </a>
               </li>
@@ -309,7 +345,7 @@
                   href="icon-material.html"
                   aria-expanded="false"
                 >
-                  <i data-feather="feather" class="feather-icon"></i>
+                  <i class="mdi mdi-face font-20" style="line-height: 20px"></i>
                   <span class="hide-menu">Icons</span>
                 </a>
               </li>
@@ -319,7 +355,7 @@
                   href="starter-kit.html"
                   aria-expanded="false"
                 >
-                  <i data-feather="check-square" class="feather-icon"></i>
+                  <i class="mdi mdi-file font-20" style="line-height: 20px"></i>
                   <span class="hide-menu">Starter Page</span>
                 </a>
               </li>
@@ -329,7 +365,10 @@
                   href="error-404.html"
                   aria-expanded="false"
                 >
-                  <i data-feather="user-x" class="feather-icon"></i>
+                  <i
+                    class="mdi mdi-alert-outline font-20"
+                    style="line-height: 20px"
+                  ></i>
                   <span class="hide-menu">404</span>
                 </a>
               </li>
@@ -390,7 +429,7 @@
             </div>
             <div class="col-5 align-self-center">
               <div class="customize-input float-right">
-                <select class="custom-select form-control">
+                <select class="form-select form-control">
                   <option selected>June 19</option>
                   <option value="1">July 19</option>
                   <option value="2">Aug 19</option>
